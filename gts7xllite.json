@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1792084809,
-      "filename": "lineage-21.0-20261015-UNOFFICIAL-gts7xllite.zip",
-      "id": "58a3d8ec8bbac5e693c460e7455b0b854159df5af0415937f06cf11db5716a0e",
+      "datetime": 1792180262,
+      "filename": "lineage-21.0-20261016-UNOFFICIAL-gts7xllite.zip",
+      "id": "1d814f250d7e33d919911137994eda52977b3a5e18d926f25bcf45f524eca94a",
       "romtype": "UNOFFICIAL",
-      "size": 1537290091,
-      "url": "https://github.com/Blitzhagen/android_device_samsung_gts7xllite/releases/download/lineage-21.0-20261015/lineage-21.0-20261015-UNOFFICIAL-gts7xllite.zip",
+      "size": 1532608975,
+      "url": "https://github.com/Blitzhagen/android_device_samsung_gts7xllite/releases/download/lineage-21.0-20261016/lineage-21.0-20261016-UNOFFICIAL-gts7xllite.zip",
       "version": "21.0"
     }
   ]
