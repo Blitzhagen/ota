@@ -20,8 +20,10 @@ URL="https://github.com/Blitzhagen/android_device_samsung_${DEVICE}/releases/dow
 python3 - "$DATETIME" "$ZIP" "$ID" "$SIZE" "$URL" "$VERSION" > "$REPO/$DEVICE.json" <<'PY'
 import json, sys
 dt, fn, sid, size, url, ver = sys.argv[1:7]
-print(json.dumps({"response": [{"datetime": int(dt), "filename": fn, "id": sid,
-    "romtype": "UNOFFICIAL", "size": int(size), "url": url,
-    "version": ver}]}, indent=2))
+# Updater (packages/apps/Updater, Android 17+) expects a bare array with
+# files[] entries — the old {"response": [...]} wrapper was the v1 schema.
+print(json.dumps([{"datetime": int(dt), "type": "UNOFFICIAL",
+    "version": ver, "files": [{"filename": fn, "sha256": sid,
+    "size": int(size), "url": url}]}], indent=2))
 PY
 echo "wrote $REPO/$DEVICE.json for $ZIP"
