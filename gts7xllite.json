@@ -1,14 +1,14 @@
 [
   {
-    "datetime": 1793202420,
+    "datetime": 1793590650,
     "type": "UNOFFICIAL",
     "version": "24.0",
     "files": [
       {
-        "filename": "lineage-24.0-20261028-UNOFFICIAL-gts7xllite.zip",
-        "sha256": "64f6cd846eb0c71c5a7f6921cd83a54befda711b93739d31d42c83f8367a53c9",
-        "size": 1661779025,
-        "url": "https://github.com/Blitzhagen/android_device_samsung_gts7xllite/releases/download/lineage-24.0-20261028/lineage-24.0-20261028-UNOFFICIAL-gts7xllite.zip",
+        "filename": "lineage-24.0-20261102-UNOFFICIAL-gts7xllite.zip",
+        "sha256": "93461c0cd5de1b058669baa5f46a74a680cfb83683b5fd71c9ba441ab6a34fd4",
+        "size": 1661626353,
+        "url": "https://github.com/Blitzhagen/android_device_samsung_gts7xllite/releases/download/lineage-24.0-20261102/lineage-24.0-20261102-UNOFFICIAL-gts7xllite.zip",
         "os_sdk_level": 37,
         "os_patch_level": "2026-10-01"
       }
